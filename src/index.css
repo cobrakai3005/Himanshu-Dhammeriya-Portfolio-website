@@ -1,0 +1,12 @@
+@import "tailwindcss";
+* {
+  scroll-behavior: smooth;
+}
+
+label {
+  position: relative;
+}
+label::after {
+  content: "*";
+  color: red;
+}
