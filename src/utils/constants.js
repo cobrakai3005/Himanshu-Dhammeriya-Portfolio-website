@@ -3,6 +3,7 @@ import travel from "../assets/travel-website.png";
 import product from "../assets/product-store.png";
 import finance from "../assets/finance-app.png";
 import food from "../assets/food-app.png";
+import movie from "../assets/movie.png";
 
 // Individual Project Card Component
 
@@ -78,5 +79,20 @@ export const projects = [
     type: "Frontend",
     live: "https://datewebsite.vercel.app/",
     github: "https://github.com/cobrakai3005/data_website-react",
+  },
+  {
+    id: 6,
+    title: "A Movie App",
+    description: `Discover the Series Streaming Experience with Our App`,
+
+    image: movie,
+
+    technologies: ["React", "Tailwind", "CSS"],
+    color: "#ef4444",
+    status: "Completed",
+    date: "Sep 20245",
+    type: "Frontend",
+    live: "https://movie-app-two-psi-55.vercel.app/",
+    github: "https://github.com/cobrakai3005/Movie-App",
   },
 ];

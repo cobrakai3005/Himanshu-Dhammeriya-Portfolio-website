@@ -30,9 +30,9 @@ export default function Projects() {
           </div>
 
           {/* View More Button */}
-          <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-md transition-colors duration-200 text-base sm:text-lg font-medium shadow-lg hover:shadow-xl transform hover:scale-105">
+          {/* <button className="mt-8 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-md transition-colors duration-200 text-base sm:text-lg font-medium shadow-lg hover:shadow-xl transform hover:scale-105">
             View All Projects
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
